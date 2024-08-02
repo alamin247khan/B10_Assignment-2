@@ -16,11 +16,7 @@ body {
 
 .header {
   position: relative;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-}
-
-.hero {
-  background-color: rgba(155, 155, 155, 0.719), rgba(0, 0, 0, 0);
+  background: linear-gradient(180.00deg, rgba(119, 119, 119, 0), rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
 nav,
@@ -71,6 +67,12 @@ li {
   font-size: 350%;
   font-weight: 800;
   font-family: "Inter";
+}
+
+.hero_text span{
+  font-family: 'miama';
+  font-weight: 400;
+  font-size: 78px;
 }
 
 .hero_text p {
