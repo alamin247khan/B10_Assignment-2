@@ -16,7 +16,12 @@ body {
 
 .header {
   position: relative;
-  background: linear-gradient(180.00deg, rgba(119, 119, 119, 0), rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(119, 119, 119, 0),
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
 }
 
 nav,
@@ -48,7 +53,8 @@ li {
   border-radius: 40px;
 }
 
-.active, #active {
+.active,
+#active {
   background-color: rgb(255, 96, 47);
 }
 
@@ -69,8 +75,8 @@ li {
   font-family: "Inter";
 }
 
-.hero_text span{
-  font-family: 'miama';
+.hero_text span {
+  font-family: "miama";
   font-weight: 400;
   font-size: 78px;
 }
@@ -103,15 +109,35 @@ button {
 
 .workout_video {
   position: absolute;
-  height: 80px;
-  background-color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.25rem;
   inset: 40% 80%;
-  
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.workout_video-text h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.workout_video-text p {
+  font-size: 0.813rem;
+  font-weight: 400;
 }
 
 .video_tutorial {
   position: absolute;
   display: flex;
+  width: 206px,
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
   inset: 70% 60%;
 }
 
@@ -133,7 +159,8 @@ button {
 }
 
 .run_an_extra_img img {
-  height: 200px;
+  width: 22.875em;
+  height: 19.5em;
   border-radius: 15px;
 }
 
@@ -147,7 +174,7 @@ button {
   align-items: center;
   padding: 60px;
   border-radius: 15px;
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(34, 34, 34);
 }
 
 .run_an_extra_text {
@@ -210,7 +237,7 @@ footer {
   margin-left: 100px;
 }
 
-.get_started a{
+.get_started a {
   margin-top: 10px;
 }
 
@@ -223,9 +250,8 @@ footer {
   margin: 20px;
 }
 
-
 @media only screen and (max-width: 450px) {
-  nav ul{
+  nav ul {
     display: none;
   }
 }
