@@ -158,6 +158,9 @@ button {
   margin-top: 50px;
 }
 
+.habits_cards{
+  width: 14.4375em;
+}
 .run_an_extra_img img {
   width: 22.875em;
   height: 19.5em;
