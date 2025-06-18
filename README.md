@@ -39,7 +39,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
         <br /><small>Customize your viewing experience</small>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/health-graph.png"/>
+        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calculator.svg" width="48" height="48"/>
         <br /><b>BMI Calculator</b>
         <br /><small>Personalized health insights</small>
       </td>
@@ -56,7 +56,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
     </tr>
     <tr>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/responsive-design.png"/>
+        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/mobile-screen.svg" width="48" height="48"/>
         <br /><b>Responsive Design</b>
         <br /><small>Perfect on all devices</small>
       </td>
@@ -71,7 +71,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
         <br /><small>Professional guidance</small>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/newsletter.png"/>
+        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope-open-text.svg" width="48" height="48"/>
         <br /><b>Newsletter</b>
         <br /><small>Stay updated with tips</small>
       </td>
@@ -107,11 +107,11 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
         <br />AOS
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/font-awesome.png"/>
+        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/font-awesome.svg" width="48" height="48"/>
         <br />FontAwesome
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/responsive-design.png"/>
+        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/display.svg" width="48" height="48"/>
         <br />Responsive
       </td>
       <td align="center">
@@ -152,7 +152,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       </ul>
     </td>
     <td width="40%">
-      <img src="https://cdn.dribbble.com/users/1615584/screenshots/15571949/media/7e95f0fddb7957220033569815613b46.jpg" alt="Responsive Design Illustration">
+      <img src="https://raw.githubusercontent.com/alamin247khan/B10_Assignment-2/main/images/Website.png" alt="Responsive Design Illustration">
     </td>
   </tr>
 </table>
@@ -255,7 +255,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
     </tr>
     <tr>
       <td align="center"><img src="https://img.icons8.com/color/48/000000/conference-call.png"/><br/>Community Forum</td>
-      <td align="center"><img src="https://img.icons8.com/color/48/000000/smart-watch.png"/><br/>Fitness Tracker Integration</td>
+      <td align="center"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/heart-pulse.svg" width="48" height="48"/><br/>Fitness Tracker Integration</td>
       <td align="center"><img src="https://img.icons8.com/color/48/000000/calendar-plus.png"/><br/>Booking System</td>
     </tr>
   </table>
