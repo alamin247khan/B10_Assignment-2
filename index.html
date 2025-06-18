@@ -1,247 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet" />
-  <title>Fitness</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitLife - Your Fitness Journey Starts Here</title>
+  <link href="./images/facebook.png" rel="icon">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="description" content="FitLife - Transform your body and elevate your life with personalized fitness programs, expert trainers, and a supportive community.">
+  <meta name="keywords" content="fitness, workout, personal training, nutrition, health, gym">
 </head>
 
 <body>
-  <div class="header">
-    <div class="hero">
-      <nav>
-        <div class="logo">
-          <p>Fitness</p>
-        </div>
-        <ul>
-          <li class="active"><a class="active" href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-      <div class="hero_content">
-        <div class="hero_text">
-          <h1>
-            Get body in <br />
-            <span>shape</span> & stay <br />healthy
-          </h1>
-          <p>
-            A huge selection of health and fitness content, healthy recipes
-            <br />
-            and transformation stories to help you get fit and stay fit!
-          </p>
-          <button id="active">Join Club Now!</button> <button id="active">Download App</button>
-        </div>
-        <div class="hero_img">
-          <img height="400px" src="images/Images 2.png" alt="" />
-        </div>
-        <div class="workout_video">
-          <div class="workout_video-text">
-            <h1>500+</h1>
-          <p>Free Workout Videos</p>
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader">
+      <div class="loader-inner"></div>
+    </div>
+  </div>
+  <header class="hero">
+    <nav>
+      <div class="container main-nav flex">
+        <a href="#" class="fitness-logo">
+          <h1>FitLife</h1>
+        </a>
+        <div class="nav-links" id="nav-links">
+          <div class="close-menu" id="close-menu">
+            <i class="fa-solid fa-xmark"></i>
           </div>
+          <ul class="flex">
+            <li><a href="#home" class="hover-link"><span class="home">Home</span></a></li>
+            <li><a href="#training" class="hover-link">Programs</a></li>
+            <li><a href="#bmi-calculator" class="hover-link">BMI Calculator</a></li>
+            <li><a href="#footer" class="hover-link">Contact</a></li>
+            <li><a href="#our-team" class="hover-link">Team</a></li>
+          </ul>
         </div>
-        <div class="video_tutorial">
-          <div class="round"></div>
-          <div class="video_text">
-            <h1>350+</h1>
-            <p>Video Tutorial</p>
+        <div class="nav-actions flex">
+          <div class="theme-toggle" id="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+          </div>
+          <div class="ham-burger" id="ham-burger">
+            <i class="fa-solid fa-bars"></i>
           </div>
         </div>
       </div>
+    </nav>
+
+    <div class="container header-section flex" id="home">
+      <div class="header-left" data-aos="fade-right">
+        <div class="header-left-content">
+          <h1>Transform Your Body<br><span class="dancing-font">Elevate</span> Your Life</h1>
+          <p>Join our community of fitness enthusiasts and experience personalized workouts, expert guidance, and real results. Your journey to a healthier lifestyle begins here.</p>
+          <div class="header-button flex">
+            <a href="#training" class="primary-button">Start Training</a>
+            <a href="#bmi-calculator" class="secondary-button">Check BMI</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-right" data-aos="fade-left">
+        <img src="./images/Images 2.png" alt="Fitness Transformation">
+        <div class="stats-card video-section">
+          <div class="stats-icon video-circle">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <div class="stats-content">
+            <h3>350+</h3>
+            <p>Video Tutorials</p>
+          </div>
+        </div>
+        <div class="stats-card workout-section">
+          <div class="stats-content">
+            <h3>500+</h3>
+            <p>Free Workouts</p>
+          </div>
+        </div>
+        <div class="play-icon pulse">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
     </div>
-  </div>
-  <section class="cyh">
-    <div class="change_your_habits">
-      <div class="cyh">
-        <h1>Change Your Habits</h1>
-        <p>
-          We believe fitness should be accessible to everyone, everywhere,
-          regardless of income or access to a gym.
-        </p>
-        <div class="habits_cards_container">
-          <div class="habits_cards">
-            <img src="images/image 3.png" alt="" />
-            <h3>Movement</h3>
-            <p>We believe fitness should be accessible to everyon</p>
+  </header>
+
+  <main>
+    <section id="habit" class="container">
+      <div class="section-title flex" data-aos="fade-up">
+        <h2>Transform Your Habits</h2>
+        <p>Discover a new way of living through our comprehensive fitness programs</p>
+      </div>
+
+      <div class="your-habit-content grid">
+        <div class="habit-item flex" data-aos="zoom-in" data-aos-delay="100">
+          <div class="habit-icon">
+            <img src="./images/habit1.png" alt="Personalized Training">
           </div>
-          <div class="habits_cards">
-            <img src="images/image 2.png" alt="" />
-            <h3>Time</h3>
-            <p>We believe fitness should be accessible to everyone</p>
+          <h4>Personal Training</h4>
+          <p>Custom workout plans tailored to your goals</p>
+        </div>
+        <div class="habit-item flex" data-aos="zoom-in" data-aos-delay="200">
+          <div class="habit-icon">
+            <img src="./images/habit2.png" alt="Nutrition Guidance">
           </div>
-          <div class="habits_cards">
-            <img src="images/image 4.png" alt="" />
-            <h3>Practice</h3>
-            <p>We believe fitness should be accessible to everyon</p>
+          <h4>Nutrition Plans</h4>
+          <p>Expert dietary advice for optimal results</p>
+        </div>
+        <div class="habit-item flex" data-aos="zoom-in" data-aos-delay="300">
+          <div class="habit-icon">
+            <img src="./images/habit3.png" alt="Group Classes">
           </div>
-          <div class="habits_cards">
-            <img src="images/image 5.png" alt="" />
-            <h3>Weight Loss</h3>
-            <p>We believe fitness should be accessible to everyone</p>
+          <h4>Group Classes</h4>
+          <p>Motivating sessions with like-minded people</p>
+        </div>
+        <div class="habit-item flex" data-aos="zoom-in" data-aos-delay="400">
+          <div class="habit-icon">
+            <img src="./images/habit4.png" alt="Progress Tracking">
           </div>
+          <h4>Track Progress</h4>
+          <p>Monitor your fitness journey effectively</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="run" class="container extra-mile-container">
+      <div class="extra-mile-content flex" data-aos="fade-up">
+        <div class="extra-mile">
+          <h2>Achieve More Than <br>You Think Possible</h2>
+          <p>Push your limits and discover your true potential with our expert-designed programs and supportive community.</p>
+          <a href="#" class="primary-button">Join Now</a>
+        </div>
+        <div class="extra-wrapper" data-aos="fade-left">
+          <div class="extra-mile-img">
+            <img src="./images/run.jpg" alt="Running">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="training" class="container">
+      <div data-aos="fade-up">
+        <h2>Featured Workouts</h2>
+        <p>Explore our diverse range of exercises designed for all fitness levels</p>
+      </div>
+      <div class="training-container grid">
+        <div class="training-content" data-aos="fade-up" data-aos-delay="100">
+          <img src="./images/exercise1.jpg" alt="Strength Training">
+          <div class="training-item training-item-1">
+            <h4>Strength Training</h4>
+            <p>Build muscle and increase power</p>
+          </div>
+        </div>
+        <div class="training-content" data-aos="fade-up" data-aos-delay="200">
+          <img src="./images/exercise2.png" alt="Cardio Workout">
+          <div class="training-item training-item-2">
+            <h4>Cardio Blast</h4>
+            <p>Improve endurance and burn fat</p>
+          </div>
+        </div>
+        <div class="training-content" data-aos="fade-up" data-aos-delay="300">
+          <img src="./images/exercise3.png" alt="Flexibility">
+          <div class="training-item training-item-3">
+            <h4>Flexibility</h4>
+            <p>Enhance mobility and recovery</p>
+          </div>
+        </div>
+        <div class="training-content" data-aos="fade-up" data-aos-delay="400">
+          <img src="./images/exercise4.png" alt="HIIT Training">
+          <div class="training-item training-item-4">
+            <h4>HIIT Training</h4>
+            <p>Maximum results in minimum time</p>
+          </div>
+        </div>
+        <div class="training-content" data-aos="fade-up" data-aos-delay="500">
+          <img src="./images/exercise5.jpg" alt="Core Strength">
+          <div class="training-item training-item-5">
+            <h4>Core Power</h4>
+            <p>Build a strong foundation</p>
+          </div>
+        </div>
+        <div class="training-content" data-aos="fade-up" data-aos-delay="600">
+          <img src="./images/exercise6.jpg" alt="Full Body">
+          <div class="training-item training-item-6">
+            <h4>Full Body</h4>
+            <p>Complete body transformation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bmi-calculator" class="glass-section">
+      <div class="container">
+        <div class="bmi-title" data-aos="fade-up">
+          <h2>BMI Calculator</h2>
+          <p>Calculate your Body Mass Index and get personalized recommendations</p>
+        </div>
+      </div>
+
+      <div class="bmi-container">
+        <div class="container bmi-content flex">
+          <div class="bmi-calculator-cart" data-aos="fade-right">
+            <div class="bmi-result glass">
+              <h3>Your BMI Result</h3>
+              <div id="bmi-score">--</div>
+              <div id="bmi-category">--</div>
+              <div class="bmi-info">
+                <div class="bmi-meter">
+                  <div class="meter-bar">
+                    <div id="bmi-indicator"></div>
+                  </div>
+                  <div class="meter-labels">
+                    <span>Underweight</span>
+                    <span>Normal</span>
+                    <span>Overweight</span>
+                    <span>Obese</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bmi-chart glass">
+              <h3>BMI Categories</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>BMI Range</th>
+                    <th>Category</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                  </tr>
+                  <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                  </tr>
+                  <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td>
+                  </tr>
+                  <tr>
+                    <td>30.0+</td>
+                    <td>Obese</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+            <div class="bmi-recommendations glass">
+              <h3>Health Recommendations</h3>
+              <div id="bmi-recommendations" class="recommendations-content">
+                <p>Calculate your BMI to get personalized health recommendations</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="calculate-your-bmi glass" data-aos="fade-left">
+            <h3>Calculate Your BMI</h3>
+            <p>Get personalized fitness insights based on your body metrics and instant results</p>
+
+            <form class="bmi-form" id="bmi-form">
+              <div class="input-item flex">
+                <div class="form-group">
+                  <label for="height">Height (cm)</label>
+                  <input type="number" id="height" required min="50" max="300">
+                </div>
+                <div class="form-group">
+                  <label for="weight">Weight (kg)</label>
+                  <input type="number" id="weight" required min="20" max="300">
+                </div>
+              </div>
+              <div class="input-item flex">
+                <div class="form-group">
+                  <label for="age">Age</label>
+                  <input type="number" id="age" required min="15" max="100">
+                </div>
+                <div class="form-group">
+                  <label for="gender">Gender</label>
+                  <select id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="activity">Activity Level</label>
+                <select id="activity" required>
+                  <option value="">Select Activity Level</option>
+                  <option value="1.2">Sedentary (little exercise)</option>
+                  <option value="1.375">Light (1-3 days/week)</option>
+                  <option value="1.55">Moderate (3-5 days/week)</option>
+                  <option value="1.725">Very Active (6-7 days/week)</option>
+                  <option value="1.9">Extra Active (very intense)</option>
+                </select>
+              </div>
+              <button type="submit" class="primary-button">Calculate BMI</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <div class="section-title flex" data-aos="fade-up">
+          <h2>Success Stories</h2>
+          <p>Hear from our members who transformed their lives</p>
+        </div>
+        
+        <div class="testimonial-slider" id="testimonial-slider">
+          <div class="testimonial-track">
+            <div class="testimonial-card" data-aos="fade-up">
+              <div class="testimonial-image">
+                <img src="./images/trainer1.png" alt="John D.">
+              </div>
+              <div class="testimonial-content">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"I've lost over 30 pounds in just 4 months following the FitLife program. The trainers are amazing and the community keeps me motivated!"</p>
+                <div class="testimonial-author">
+                  <h4>John D.</h4>
+                  <span>Member since 2022</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="testimonial-image">
+                <img src="./images/trainer4.png" alt="Sarah M.">
+              </div>
+              <div class="testimonial-content">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>"The nutrition plans and workout routines are perfectly balanced. I've never felt stronger or more energetic. FitLife changed my relationship with fitness!"</p>
+                <div class="testimonial-author">
+                  <h4>Sarah M.</h4>
+                  <span>Member since 2023</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="testimonial-image">
+                <img src="./images/trainer5.png" alt="Michael T.">
+              </div>
+              <div class="testimonial-content">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"As someone who always struggled with consistency, the FitLife app and progress tracking tools keep me accountable. The results speak for themselves!"</p>
+                <div class="testimonial-author">
+                  <h4>Michael T.</h4>
+                  <span>Member since 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slider-controls">
+            <button class="prev-btn" id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="next-btn" id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="progress-tracker" class="container">
+      <div class="section-title flex" data-aos="fade-up">
+        <h2>Track Your Progress</h2>
+        <p>Monitor your fitness journey with our interactive tools</p>
+      </div>
+      
+      <div class="progress-container">
+        <div class="progress-tabs">
+          <button class="tab-btn active" data-tab="weight">Weight</button>
+          <button class="tab-btn" data-tab="workout">Workouts</button>
+          <button class="tab-btn" data-tab="nutrition">Nutrition</button>
+        </div>
+        
+        <div class="tab-content active" id="weight-tab">
+          <div class="chart-container" data-aos="fade-up">
+            <canvas id="weightChart"></canvas>
+          </div>
+          <div class="stats-summary flex">
+            <div class="stat-card">
+              <h4>Starting</h4>
+              <p>75 kg</p>
+            </div>
+            <div class="stat-card highlight">
+              <h4>Current</h4>
+              <p>68 kg</p>
+            </div>
+            <div class="stat-card">
+              <h4>Goal</h4>
+              <p>65 kg</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="workout-tab">
+          <div class="workout-progress" data-aos="fade-up">
+            <div class="progress-circle" data-value="75">
+              <div class="progress-circle-inner">
+                <div class="progress-value">75%</div>
+                <div class="label">Weekly Goal</div>
+              </div>
+            </div>
+            <div class="workout-stats">
+              <div class="stat-row">
+                <span>Sessions completed</span>
+                <span>15/20</span>
+              </div>
+              <div class="stat-row">
+                <span>Calories burned</span>
+                <span>4,250</span>
+              </div>
+              <div class="stat-row">
+                <span>Active minutes</span>
+                <span>840</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="nutrition-tab">
+          <div class="nutrition-tracker" data-aos="fade-up">
+            <div class="macro-chart">
+              <canvas id="macroChart"></canvas>
+            </div>
+            <div class="nutrition-stats">
+              <div class="macro-item">
+                <div class="macro-icon protein">P</div>
+                <div class="macro-info">
+                  <h5>Protein</h5>
+                  <p>120g / 150g</p>
+                </div>
+                <div class="macro-bar">
+                  <div class="macro-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="macro-item">
+                <div class="macro-icon carbs">C</div>
+                <div class="macro-info">
+                  <h5>Carbs</h5>
+                  <p>200g / 250g</p>
+                </div>
+                <div class="macro-bar">
+                  <div class="macro-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="macro-item">
+                <div class="macro-icon fats">F</div>
+                <div class="macro-info">
+                  <h5>Fats</h5>
+                  <p>55g / 65g</p>
+                </div>
+                <div class="macro-bar">
+                  <div class="macro-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-team" class="container">
+      <div class="section-title flex" data-aos="fade-up">
+        <h2>Expert Trainers</h2>
+        <p>Meet our certified fitness professionals dedicated to your success</p>
+      </div>
+
+      <div class="our-team-content grid">
+        <div class="team-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-image">
+            <img src="./images/trainer1.png" alt="Jerome Bell">
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>Jerome Bell</h4>
+            <p>Strength Coach</p>
+          </div>
+        </div>
+        <div class="team-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-image">
+            <img src="./images/trainer2.png" alt="Cameron Williamson">
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>Cameron Williamson</h4>
+            <p>Nutrition Expert</p>
+          </div>
+        </div>
+        <div class="team-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="team-image">
+            <img src="./images/trainer3.png" alt="Darrell Steward">
+            <div class="team-overlay">
+              <div class="team-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>Darrell Steward</h4>
+            <p>Cardio Specialist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter" class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-container" data-aos="fade-up">
+        <div class="newsletter-content">
+          <h2>Join Our Fitness Community</h2>
+          <p>Subscribe to our newsletter for weekly workout tips, nutrition advice, and exclusive content</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your email address" required>
+              <button type="submit" class="primary-button">Subscribe</button>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="consent" required>
+              <label for="consent">I agree to receive fitness tips and updates</label>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
-  <div class="run_an_extra_mile">
-    <div class="run_extra">
-      <div class="run_an_extra_text">
-        <h1>
-          Run an Extra <br />
-          Mile Easily
-        </h1>
-        <p>
-          We believe fitness should be accessible to everyone,<br />
-          everywhere, regardless of income or access to a gym. <br />
-          hundreds of professional workouts
-        </p>
-        <button id="active">Join Now</button>
-      </div>
-      <div class="run_an_extra_img">
-        <img src="images/run.jpg" alt="" />
-      </div>
-    </div>
-  </div>
-  <div class="trainings_section">
-    <div class="trainings_and_exercises">
-      <h1>Trainings and Exercises</h1>
-      <p>
-        We believe fitness should be accessible to everyone, everywhere,
-        regardless of income or access to a gym
-      </p>
-      <div class="photo_gallery"></div>
-    </div>
-  </div>
-  <section class="BMI_section">
-    <div class="bmi_calculator">
-      <h1></h1>
-      <p></p>
-    </div>
-    <div class="calculator_Chart">
-      <h2>BMI Calculator Chart</h2>
-      <table>
-        <th>
-        <td>BMI</td>
-        <td>Weight Status</td>
-        </th>
-        <tr>
-          <td>elow 18.5</td>
-          <td>Underweight</td>
-        </tr>
-        <tr>
-          <td>18.5 24.9</td>
-          <td>Healthy</td>
-        </tr>
-        <tr>
-          <td>25.0 29.9</td>
-          <td>verweight</td>
-        </tr>
-        <tr>
-          <td>30.0 and Above</td>
-          <td>Obese</td>
-        </tr>
-      </table>
-    </div>
-    <div class="calculate_bmi">
-      <h2></h2>
-      <p></p>
-      <input type="text" placeholder="Height/cm"><input type="text" placeholder="Weight/kg">
-      <input type="text" placeholder="Age">
-    </div>
-  </section>
-  <div class="meet_our_team_section">
-    <div class="meet_our_team">
-      <div class="meet_our_team_text">
-        <h1>Meet Our Team</h1>
-        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or<br>access to a gym
-        </p>
-      </div>
-      <div class="photo0">
-        <div class="photo">
-          <div class="photo1">
-            <div class="photo_text">
-              <h3>Jerome Bell</h3>
-              <p>Trainer</p>
-            </div>
-            <img src="images/trainer1.png" alt="">
-          </div>
-          <div class="photo1">
-            <div class="photo_text">
-              <h3>Cameron Williamson</h3>
-              <p>Trainer</p>
-            </div>
-            <img src="images/trainer2.png" alt="">
-          </div>
-          <div class="photo1">
-            <div class="photo_text">
-              <h3>Darrell Steward</h3>
-              <p>Trainer</p>
-            </div>
-            <img src="images/trainer3.png" alt="">
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container footer-container flex">
+        <div class="footer-logo-content" data-aos="fade-right">
+          <a href="#" class="fitness-logo">
+            <h1>FitLife</h1>
+          </a>
+          <p>Empowering you to achieve your fitness goals with expert guidance and support.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
-        <div class="photo">
-          <div class="photo1">
-            <div class="photo_text">
-              <h3>Dianne Russell</h3>
-              <p>Trainer</p>
-            </div>
-            <img src="images/trainer4.png" alt="">
+
+        <div class="footer-link-content flex" data-aos="fade-left">
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-list">
+              <li><a href="#training">Programs</a></li>
+              <li><a href="#bmi-calculator">BMI Calculator</a></li>
+              <li><a href="#our-team">Our Team</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
           </div>
-          <div class="photo1">
-            <div class="photo_text">
-              <h3>Cody Fisher</h3>
-              <p>Trainer</p>
-            </div>
-            <img src="images/trainer5.png" alt="">
+
+          <div class="footer-col">
+            <h3>Programs</h3>
+            <ul class="footer-list">
+              <li><a href="#habit">Personal Training</a></li>
+              <li><a href="#training">Group Classes</a></li>
+              <li><a href="#run">Nutrition Plans</a></li>
+              <li><a href="#">Online Coaching</a></li>
+            </ul>
           </div>
-          <div class="photo1">
-            <div class="photo_text">
-              <h3>Theresa Webb</h3>
-              <p>Trainer</p>
-            </div>
-            <img src="images/trainer6.png" alt="">
+          
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-list contact-list">
+              <li><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Gym City</li>
+              <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+              <li><i class="fas fa-envelope"></i> info@fitlife.com</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <div class="footer">
-      <div class="footer_text">
-        <div class="fitness">
-          <h1>Fitness</h1>
-          <p>We believe fitness should be accessible to everyone,<br>
-            everywhere, regardless of income or access to a gym. <br> With
-            hundreds of professional workouts.</p>
-        </div>
-        <div class="get_started">
-          <h2>Get Started</h2>
-          <a href="#">Service</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Affiliate Program</a>
-          <a href="#">About Us</a>
-        </div>
-        <div class="get_started">
-          <h2>Get Started</h2>
-          <a href="#">Fitness</a>
-          <a href="#">Platform</a>
-          <a href="#">Workout Library</a>
-          <a href="#">App Design</a>
-        </div>
-      </div>
-    </div>
-    <div class="copy_right">
-      <div class="copy_right_text">
-        <hr>
-        <p>All right reserved @Fitness 2024</p>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2024 FitLife. All rights reserved.</p>
       </div>
     </div>
   </footer>
+  
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="https://kit.fontawesome.com/340c0de332.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./script/script.js"></script>
 </body>
 </html>
