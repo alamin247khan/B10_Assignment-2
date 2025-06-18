@@ -34,45 +34,45 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
   <table>
     <tr>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/day-and-night.png"/>
-        <br /><b>Dark/Light Mode</b>
+        <img src="https://img.icons8.com/fluency/48/000000/sun.png"/>
+        <br /><b>🌓 Dark/Light Mode</b>
         <br /><small>Customize your viewing experience</small>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/calculator.svg" width="48" height="48"/>
-        <br /><b>BMI Calculator</b>
+        <img src="https://img.icons8.com/fluency/48/000000/health-graph.png"/>
+        <br /><b>📊 BMI Calculator</b>
         <br /><small>Personalized health insights</small>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/combo-chart.png"/>
-        <br /><b>Progress Tracking</b>
+        <img src="https://img.icons8.com/fluency/48/000000/positive-dynamic.png"/>
+        <br /><b>📈 Progress Tracking</b>
         <br /><small>Visualize your fitness journey</small>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/quote.png"/>
-        <br /><b>Testimonials</b>
+        <img src="https://img.icons8.com/fluency/48/000000/comments.png"/>
+        <br /><b>💬 Testimonials</b>
         <br /><small>Real success stories</small>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/mobile-screen.svg" width="48" height="48"/>
-        <br /><b>Responsive Design</b>
+        <img src="https://img.icons8.com/fluency/48/000000/responsive-design.png"/>
+        <br /><b>📱 Responsive Design</b>
         <br /><small>Perfect on all devices</small>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/animation.png"/>
-        <br /><b>Animated UI</b>
+        <img src="https://img.icons8.com/fluency/48/000000/motion.png"/>
+        <br /><b>✨ Animated UI</b>
         <br /><small>Engaging interactions</small>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/fluency/48/000000/conference-call.png"/>
-        <br /><b>Expert Trainers</b>
+        <img src="https://img.icons8.com/fluency/48/000000/personal-trainer.png"/>
+        <br /><b>💪 Expert Trainers</b>
         <br /><small>Professional guidance</small>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope-open-text.svg" width="48" height="48"/>
-        <br /><b>Newsletter</b>
+        <img src="https://img.icons8.com/fluency/48/000000/newsletter.png"/>
+        <br /><b>📧 Newsletter</b>
         <br /><small>Stay updated with tips</small>
       </td>
     </tr>
@@ -85,38 +85,38 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
   <table>
     <tr>
       <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
-        <br />HTML5
+        <img src="https://img.icons8.com/fluency/48/000000/html-5.png"/>
+        <br /><b>HTML5</b>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/css3.png"/>
-        <br />CSS3
+        <img src="https://img.icons8.com/fluency/48/000000/css3.png"/>
+        <br /><b>CSS3</b>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
-        <br />JavaScript
+        <img src="https://img.icons8.com/fluency/48/000000/javascript.png"/>
+        <br /><b>JavaScript</b>
       </td>
       <td align="center">
-        <img src="https://www.chartjs.org/img/chartjs-logo.svg" width="48" height="48"/>
-        <br />Chart.js
+        <img src="https://img.icons8.com/fluency/48/000000/pie-chart.png"/>
+        <br /><b>Chart.js</b>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://user-images.githubusercontent.com/10627086/27937218-61a5c7f6-62d6-11e7-9f89-3a6f23d2250e.png" width="48" height="48"/>
-        <br />AOS
+        <img src="https://img.icons8.com/fluency/48/000000/scroll.png"/>
+        <br /><b>AOS</b>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/font-awesome.svg" width="48" height="48"/>
-        <br />FontAwesome
+        <img src="https://img.icons8.com/fluency/48/000000/diamond.png"/>
+        <br /><b>FontAwesome</b>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/display.svg" width="48" height="48"/>
-        <br />Responsive
+        <img src="https://img.icons8.com/fluency/48/000000/device-manager.png"/>
+        <br /><b>Responsive</b>
       </td>
       <td align="center">
-        <img src="https://img.icons8.com/color/48/000000/lighthouse.png"/>
-        <br />Lighthouse
+        <img src="https://img.icons8.com/fluency/48/000000/speed.png"/>
+        <br /><b>Lighthouse</b>
       </td>
     </tr>
   </table>
@@ -159,16 +159,50 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
 
 ## 🔍 Key Components & Sections
 
-1. **Hero Section** - Captivating introduction with dual call-to-action buttons and animated statistics
-2. **Habit Transformation** - Four key pillars of fitness with interactive hover effects
-3. **Motivation Section** - Inspiring content to push users beyond their limits
-4. **Workout Programs** - Visual gallery of diverse exercise categories with hover animations
-5. **BMI Calculator** - Comprehensive health assessment tool with personalized recommendations
-6. **Success Stories** - Interactive testimonial slider with user ratings and experiences
-7. **Progress Tracker** - Multi-tab interface with dynamic charts for fitness metrics
-8. **Expert Trainers** - Team profiles with social media connections and specialties
-9. **Newsletter** - Email subscription for fitness tips and exclusive content
-10. **Contact Information** - Easy access to support and location details
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/home-page.png"/></td>
+      <td><b>Hero Section</b> - Captivating introduction with dual call-to-action buttons and animated statistics</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/self-improvement.png"/></td>
+      <td><b>Habit Transformation</b> - Four key pillars of fitness with interactive hover effects</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/goal.png"/></td>
+      <td><b>Motivation Section</b> - Inspiring content to push users beyond their limits</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/exercise.png"/></td>
+      <td><b>Workout Programs</b> - Visual gallery of diverse exercise categories with hover animations</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/health-graph.png"/></td>
+      <td><b>BMI Calculator</b> - Comprehensive health assessment tool with personalized recommendations</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/comments.png"/></td>
+      <td><b>Success Stories</b> - Interactive testimonial slider with user ratings and experiences</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/positive-dynamic.png"/></td>
+      <td><b>Progress Tracker</b> - Multi-tab interface with dynamic charts for fitness metrics</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/personal-trainer.png"/></td>
+      <td><b>Expert Trainers</b> - Team profiles with social media connections and specialties</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/newsletter.png"/></td>
+      <td><b>Newsletter</b> - Email subscription for fitness tips and exclusive content</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.icons8.com/fluency/36/000000/phone-contact.png"/></td>
+      <td><b>Contact Information</b> - Easy access to support and location details</td>
+    </tr>
+  </table>
+</div>
 
 ## 📂 Project Structure & Organization
 
@@ -249,14 +283,14 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.icons8.com/color/48/000000/password-check.png"/><br/>User Authentication</td>
-      <td align="center"><img src="https://img.icons8.com/color/48/000000/video-playlist.png"/><br/>Video Library</td>
-      <td align="center"><img src="https://img.icons8.com/color/48/000000/meal.png"/><br/>Meal Planning</td>
+      <td align="center"><img src="https://img.icons8.com/fluency/48/000000/password.png"/><br/><b>🔐 User Authentication</b></td>
+      <td align="center"><img src="https://img.icons8.com/fluency/48/000000/video.png"/><br/><b>🎬 Video Library</b></td>
+      <td align="center"><img src="https://img.icons8.com/fluency/48/000000/restaurant-menu.png"/><br/><b>🍎 Meal Planning</b></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://img.icons8.com/color/48/000000/conference-call.png"/><br/>Community Forum</td>
-      <td align="center"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/heart-pulse.svg" width="48" height="48"/><br/>Fitness Tracker Integration</td>
-      <td align="center"><img src="https://img.icons8.com/color/48/000000/calendar-plus.png"/><br/>Booking System</td>
+      <td align="center"><img src="https://img.icons8.com/fluency/48/000000/communication.png"/><br/><b>👥 Community Forum</b></td>
+      <td align="center"><img src="https://img.icons8.com/fluency/48/000000/heart-with-pulse.png"/><br/><b>❤️ Fitness Tracker</b></td>
+      <td align="center"><img src="https://img.icons8.com/fluency/48/000000/calendar.png"/><br/><b>📅 Booking System</b></td>
     </tr>
   </table>
 </div>
@@ -334,7 +368,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       <th>Details</th>
     </tr>
     <tr>
-      <td><img src="https://img.icons8.com/color/24/000000/speed.png"/> Performance</td>
+      <td><img src="https://img.icons8.com/fluency/24/000000/speed.png"/> <b>⚡ Performance</b></td>
       <td>
         <div style="background-color: #0cce6b; border-radius: 12px; padding: 5px; width: 95%; text-align: center; color: white; font-weight: bold;">
           95/100
@@ -343,7 +377,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       <td>Optimized assets and minimal render-blocking resources</td>
     </tr>
     <tr>
-      <td><img src="https://img.icons8.com/color/24/000000/accessibility.png"/> Accessibility</td>
+      <td><img src="https://img.icons8.com/fluency/24/000000/accessibility.png"/> <b>♿ Accessibility</b></td>
       <td>
         <div style="background-color: #0cce6b; border-radius: 12px; padding: 5px; width: 98%; text-align: center; color: white; font-weight: bold;">
           98/100
@@ -352,7 +386,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       <td>Semantic HTML, ARIA attributes, and keyboard navigation</td>
     </tr>
     <tr>
-      <td><img src="https://img.icons8.com/color/24/000000/checked-2.png"/> Best Practices</td>
+      <td><img src="https://img.icons8.com/fluency/24/000000/checkmark.png"/> <b>✅ Best Practices</b></td>
       <td>
         <div style="background-color: #0cce6b; border-radius: 12px; padding: 5px; width: 92%; text-align: center; color: white; font-weight: bold;">
           92/100
@@ -361,7 +395,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       <td>Modern browser APIs and security considerations</td>
     </tr>
     <tr>
-      <td><img src="https://img.icons8.com/color/24/000000/search-more.png"/> SEO</td>
+      <td><img src="https://img.icons8.com/fluency/24/000000/search.png"/> <b>🔍 SEO</b></td>
       <td>
         <div style="background-color: #0cce6b; border-radius: 12px; padding: 5px; width: 96%; text-align: center; color: white; font-weight: bold;">
           96/100
@@ -416,26 +450,26 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
     <tr>
       <td align="center">
         <a href="https://www.chartjs.org/">
-          <img src="https://www.chartjs.org/img/chartjs-logo.svg" width="40" height="40"/><br />
-          Chart.js
+          <img src="https://img.icons8.com/fluency/40/000000/pie-chart.png"/><br />
+          <b>Chart.js</b>
         </a>
       </td>
       <td align="center">
         <a href="https://michalsnik.github.io/aos/">
-          <img src="https://user-images.githubusercontent.com/10627086/27937218-61a5c7f6-62d6-11e7-9f89-3a6f23d2250e.png" width="40" height="40"/><br />
-          AOS Library
+          <img src="https://img.icons8.com/fluency/40/000000/scroll.png"/><br />
+          <b>AOS Library</b>
         </a>
       </td>
       <td align="center">
         <a href="https://fontawesome.com/">
-          <img src="https://img.icons8.com/color/40/000000/font-awesome.png"/><br />
-          Font Awesome
+          <img src="https://img.icons8.com/fluency/40/000000/diamond.png"/><br />
+          <b>Font Awesome</b>
         </a>
       </td>
       <td align="center">
         <a href="https://icons8.com/">
-          <img src="https://img.icons8.com/color/40/000000/icons8-new-logo.png"/><br />
-          Icons8
+          <img src="https://img.icons8.com/fluency/40/000000/icons8-new-logo.png"/><br />
+          <b>Icons8</b>
         </a>
       </td>
     </tr>
