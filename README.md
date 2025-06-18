@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![FitLife Banner](https://i.ibb.co/YQVtYrb/fitlife-banner.png)
+![FitLife Banner](https://raw.githubusercontent.com/alamin247khan/B10_Assignment-2/main/images/Website.png)
 
 [![Live Site](https://img.shields.io/badge/Live_Site-Visit_Now-blue?style=for-the-badge)](https://fitnesslive01.netlify.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-green?style=for-the-badge&logo=github)](https://github.com/alamin247khan/B10_Assignment-2)
@@ -103,7 +103,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
     </tr>
     <tr>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/michalsnik/aos/master/aos.png" width="48" height="48"/>
+        <img src="https://user-images.githubusercontent.com/10627086/27937218-61a5c7f6-62d6-11e7-9f89-3a6f23d2250e.png" width="48" height="48"/>
         <br />AOS
       </td>
       <td align="center">
@@ -152,7 +152,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       </ul>
     </td>
     <td width="40%">
-      <img src="https://i.ibb.co/Jy2Lqyb/responsive-design.png" alt="Responsive Design Illustration">
+      <img src="https://cdn.dribbble.com/users/1615584/screenshots/15571949/media/7e95f0fddb7957220033569815613b46.jpg" alt="Responsive Design Illustration">
     </td>
   </tr>
 </table>
@@ -379,7 +379,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
 ## 📸 Screenshots & Demo
 
 <div align="center">
-  <img src="https://i.ibb.co/YQVtYrb/fitlife-banner.png" alt="FitLife Homepage" width="80%">
+  <img src="https://raw.githubusercontent.com/alamin247khan/B10_Assignment-2/main/images/Website.png" alt="FitLife Homepage" width="80%">
   <p><em>Homepage with hero section and animated statistics</em></p>
   
   <details>
@@ -387,15 +387,15 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
     <table>
       <tr>
         <td width="33%">
-          <img src="https://i.ibb.co/YQVtYrb/fitlife-banner.png" alt="BMI Calculator" width="100%">
+          <img src="https://raw.githubusercontent.com/alamin247khan/B10_Assignment-2/main/images/exercise1.jpg" alt="BMI Calculator" width="100%">
           <p><em>BMI Calculator</em></p>
         </td>
         <td width="33%">
-          <img src="https://i.ibb.co/YQVtYrb/fitlife-banner.png" alt="Progress Tracking" width="100%">
+          <img src="https://raw.githubusercontent.com/alamin247khan/B10_Assignment-2/main/images/exercise2.png" alt="Progress Tracking" width="100%">
           <p><em>Progress Tracking</em></p>
         </td>
         <td width="33%">
-          <img src="https://i.ibb.co/YQVtYrb/fitlife-banner.png" alt="Expert Trainers" width="100%">
+          <img src="https://raw.githubusercontent.com/alamin247khan/B10_Assignment-2/main/images/trainer1.png" alt="Expert Trainers" width="100%">
           <p><em>Expert Trainers</em></p>
         </td>
       </tr>
@@ -422,7 +422,7 @@ A modern, responsive fitness website created for Programming Hero Batch 10 Assig
       </td>
       <td align="center">
         <a href="https://michalsnik.github.io/aos/">
-          <img src="https://raw.githubusercontent.com/michalsnik/aos/master/aos.png" width="40" height="40"/><br />
+          <img src="https://user-images.githubusercontent.com/10627086/27937218-61a5c7f6-62d6-11e7-9f89-3a6f23d2250e.png" width="40" height="40"/><br />
           AOS Library
         </a>
       </td>
